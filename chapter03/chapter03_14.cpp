@@ -40,7 +40,7 @@ private:
     int m_y = 0;
 };
 
-int _tmain(int argc, TCHAR* argv[])
+int _tmain(int argc, _TCHAR* argv[])
 {
     // 매개변수가 하나인 생성자만 호출
     CMyPoint ptBegin(110);
